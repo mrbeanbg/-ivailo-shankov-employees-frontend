@@ -7,6 +7,6 @@ services:
     environment:
       - REACT_APP_BACKEND_API_BASE_URL=http://localhost:8080
     ports:
-      - "8080:8080"
+      - "3000:3000"
     extra_hosts:
       - "host.docker.internal:host-gateway"
